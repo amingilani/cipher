@@ -37,18 +37,23 @@ Implementation Details
 Alphabet Mapping
 ~~~~~~~~~~~~~~
 
-.. list-table::
-   :header-rows: 1
+.. csv-table::
+   :header: "Original", "Encoded", "Original", "Encoded"
+   :widths: 25, 25, 25, 25
 
-   * - Original
-     - Encoded
-   * - A
-     - N
-   * - B
-     - O
-   * - C
-     - P
-   * - (etc...)
+   A, N, N, A
+   B, O, O, B
+   C, P, P, C
+   D, Q, Q, D
+   E, R, R, E
+   F, S, S, F
+   G, T, T, G
+   H, U, U, H
+   I, V, V, I
+   J, W, W, J
+   K, X, X, K
+   L, Y, Y, L
+   M, Z, Z, M
 
 Regulatory Compliance
 ------------------
@@ -62,4 +67,4 @@ Notes
 -----
 * ROT13 is not secure encryption and should only be used for training or recreational purposes
 * All transmissions must comply with Canadian amateur radio regulations
-* Keep a copy of this specification available during operation 
+* Keep a copy of this specification available during operation

@@ -34,21 +34,26 @@ Exemple de Transmission
 Détails d'Implémentation
 ---------------------
 
-Correspondance Alphabétique
-~~~~~~~~~~~~~~~~~~~~~~~~
+Table de Correspondance Alphabétique
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. list-table::
-   :header-rows: 1
+.. csv-table::
+   :header: "Original", "Encodé", "Original", "Encodé"
+   :widths: 25, 25, 25, 25
 
-   * - Original
-     - Encodé
-   * - A
-     - N
-   * - B
-     - O
-   * - C
-     - P
-   * - (etc...)
+   A, N, N, A
+   B, O, O, B
+   C, P, P, C
+   D, Q, Q, D
+   E, R, R, E
+   F, S, S, F
+   G, T, T, G
+   H, U, U, H
+   I, V, V, I
+   J, W, W, J
+   K, X, X, K
+   L, Y, Y, L
+   M, Z, Z, M
 
 Conformité Réglementaire
 ---------------------
@@ -62,4 +67,4 @@ Notes
 -----
 * ROT13 n'est pas un chiffrement sécurisé et ne doit être utilisé qu'à des fins de formation ou de loisir
 * Toutes les transmissions doivent être conformes aux règlements canadiens de radio amateur
-* Gardez une copie de cette spécification disponible pendant l'opération 
+* Gardez une copie de cette spécification disponible pendant l'opération
