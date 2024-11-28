@@ -4,9 +4,9 @@ cipher-docs/
 │   └── source/
 │       ├── _static/
 │       │   └── pdf/          # For PDF downloads
-│       ├── _templates/
 │       ├── conf.py
 │       ├── index.rst
+│       ├── contributing.rst
 │       └── protocols/
 │           ├── index.rst
 │           └── rot13.rst

@@ -8,19 +8,17 @@ Welcome to CIPHER (Canadian Index of Practical Ham Encryption Resources), an ope
 
 Bienvenue au CIPHER (Index Canadien des Ressources de Chiffrement pour Radioamateur), une suite de documentation open-source, maintenue par la communauté, pour les protocoles de chiffrement utilisés dans les communications radio amateur canadiennes. Ce projet soutient et complète le registre de chiffrement RAC en fournissant une documentation publique détaillée des méthodes de chiffrement.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Documentation / Documentation
-   
-   protocols/index
-
-Downloads / Téléchargements
--------------------------
-
 * `Complete Documentation / Documentation Complète (PDF) <_static/pdf/CIPHER.pdf>`_
 
-Quick Links / Liens Rapides
--------------------------
+.. toctree::
+   :maxdepth: 1
+   :caption: Protocols / Protocoles
+   :glob:
+   
+   protocols/*
 
-* :ref:`Contributing Guidelines / Directives de Contribution <contributing>`
-* :ref:`Search / Recherche <search>`
+.. toctree::
+   :maxdepth: 1
+   :caption: Navigation
+   
+   contributing

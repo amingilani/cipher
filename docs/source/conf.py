@@ -30,11 +30,14 @@ gettext_compact = False
 # HTML output settings
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_logo = '_static/cipher_logo.png'
 html_theme_options = {
-    'logo_only': True,
     'display_version': True,
     'navigation_depth': 4,
+    'titles_only': True,
+    'sticky_navigation': True,
+    'collapse_navigation': False,
+    'includehidden': False,
+    'home_page_in_toc': True
 }
 
 # PDF output settings
@@ -48,9 +51,6 @@ latex_documents = [
     (master_doc, 'CIPHER.tex', 'CIPHER Documentation / Documentation CIPHER',
      'CIPHER Contributors / Contributeurs CIPHER', 'manual', False),
 ]
-
-# Add any paths that contain templates here
-templates_path = ['_templates']
 
 # Source suffix
 source_suffix = '.rst'
