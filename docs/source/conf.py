@@ -8,6 +8,10 @@ copyright = '2024, CIPHER Contributors'
 author = 'CIPHER Contributors'
 release = '0.1.0'
 
+# The master toctree document
+master_doc = 'index'
+root_doc = 'index'  # New versions of Sphinx use root_doc instead of master_doc
+
 # Extensions
 extensions = [
     'sphinx.ext.autodoc',
@@ -39,11 +43,16 @@ latex_elements = {
     'pointsize': '11pt',
 }
 
+# Multiple PDF configurations
+latex_documents = [
+    (master_doc, 'CIPHER.tex', 'CIPHER Documentation',
+     'CIPHER Contributors', 'manual', False),
+    ('fr/index', 'CIPHER-fr.tex', 'Documentation CIPHER',
+     'Contributeurs CIPHER', 'manual', False),
+]
+
 # Add any paths that contain templates here
 templates_path = ['_templates']
 
 # Source suffix
 source_suffix = '.rst'
-
-# The master toctree document
-master_doc = 'index' 

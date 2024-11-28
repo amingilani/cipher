@@ -47,17 +47,23 @@ jobs:
       - name: Build documentation
         run: |
           cd docs
-          poetry run make html
+          # First build PDFs
           poetry run make latexpdf
+          # Create pdf directory in _static
+          mkdir -p source/_static/pdf
+          # Copy PDFs to _static/pdf
+          cp build/latex/*.pdf source/_static/pdf/
+          # Now build HTML with PDFs included
+          poetry run make html
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: docs/build/html
 
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4

@@ -27,6 +27,12 @@ About CIPHER
 
 CIPHER is an open-source, community-maintained documentation suite for encryption protocols used in Canadian amateur radio communications. This project supports and complements the RAC Encryption Registry by providing detailed, public documentation of encryption methods.
 
+Downloads
+--------
+
+* `Complete Documentation (PDF) <_static/pdf/CIPHER.pdf>`_
+* `Documentation Complète (PDF) <_static/pdf/CIPHER-fr.pdf>`_
+
 Quick Links
 ----------
 
