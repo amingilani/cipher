@@ -43,12 +43,10 @@ latex_elements = {
     'pointsize': '11pt',
 }
 
-# Multiple PDF configurations
+# Single bilingual PDF configuration
 latex_documents = [
-    (master_doc, 'CIPHER.tex', 'CIPHER Documentation',
-     'CIPHER Contributors', 'manual', False),
-    ('fr/index', 'CIPHER-fr.tex', 'Documentation CIPHER',
-     'Contributeurs CIPHER', 'manual', False),
+    (master_doc, 'CIPHER.tex', 'CIPHER Documentation / Documentation CIPHER',
+     'CIPHER Contributors / Contributeurs CIPHER', 'manual', False),
 ]
 
 # Add any paths that contain templates here

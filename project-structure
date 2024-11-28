@@ -1,22 +1,24 @@
 cipher-docs/
 ├── docs/
-│   ├── Makefile              # Need to create this
+│   ├── Makefile
 │   └── source/
-│       ├── _static/          # Create directory
-│       ├── _templates/       # Create directory
-│       ├── conf.py           # Already exists
-│       ├── index.rst         # Already exists
-│       ├── en/
-│       │   └── protocols/
-│       │       ├── index.rst    # Already exists
-│       │       └── rot13.rst    # Already exists
-│       └── fr/
-│           └── protocols/
-│               ├── index.rst    # Already exists
-│               └── rot13.rst    # Already exists
+│       ├── _static/
+│       │   └── pdf/          # For PDF downloads
+│       ├── _templates/
+│       ├── conf.py
+│       ├── index.rst
+│       ├── protocols/
+│       │   ├── index.rst
+│       │   └── rot13.rst
+│       ├── regulatory/
+│       │   └── index.rst
+│       ├── implementation/
+│       │   └── index.rst
+│       └── examples/
+│           └── index.rst
 ├── .github/
 │   ├── workflows/
-│   │   └── docs.yml         # Already exists
-│   └── CONTRIBUTING.md      # Already exists
-├── pyproject.toml           # Already exists
-└── README.md               # Need to create this 
+│   │   └── docs.yml
+│   └── CONTRIBUTING.md
+├── pyproject.toml
+└── README.md 

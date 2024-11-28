@@ -1,42 +1,35 @@
-CIPHER Documentation
-===================
+CIPHER Documentation / Documentation CIPHER
+========================================
 
-Welcome to CIPHER (Canadian Index of Practical Ham Encryption Resources)
----------------------------------------------------------------------
+Welcome / Bienvenue
+------------------
 
-.. toctree::
-   :maxdepth: 2
-   :caption: English Documentation
-   
-   en/protocols/index
-   en/regulatory/index
-   en/implementation/index
-   en/examples/index
+Welcome to CIPHER (Canadian Index of Practical Ham Encryption Resources) /
+Bienvenue au CIPHER (Index Canadien des Ressources de Chiffrement pour Radioamateur)
 
 .. toctree::
    :maxdepth: 2
-   :caption: Documentation Française
+   :caption: Documentation / Documentation
    
-   fr/protocols/index
-   fr/regulatory/index
-   fr/implementation/index
-   fr/examples/index
+   protocols/index
+   regulatory/index
+   implementation/index
+   examples/index
 
-About CIPHER
------------
+About / À propos
+--------------
 
 CIPHER is an open-source, community-maintained documentation suite for encryption protocols used in Canadian amateur radio communications. This project supports and complements the RAC Encryption Registry by providing detailed, public documentation of encryption methods.
 
-Downloads
---------
+CIPHER est une suite de documentation open-source, maintenue par la communauté, pour les protocoles de chiffrement utilisés dans les communications radio amateur canadiennes. Ce projet soutient et complète le registre de chiffrement RAC en fournissant une documentation publique détaillée des méthodes de chiffrement.
 
-* `Complete Documentation (PDF) <_static/pdf/CIPHER.pdf>`_
-* `Documentation Complète (PDF) <_static/pdf/CIPHER-fr.pdf>`_
+Downloads / Téléchargements
+-------------------------
 
-Quick Links
-----------
+* `Complete Documentation / Documentation Complète (PDF) <_static/pdf/CIPHER.pdf>`_
 
-* :ref:`English Documentation <en/protocols/index:Protocols>`
-* :ref:`Documentation Française <fr/protocols/index:Protocoles>`
-* :ref:`Contributing Guidelines <contributing>`
-* :ref:`Search <search>` 
+Quick Links / Liens Rapides
+-------------------------
+
+* :ref:`Contributing Guidelines / Directives de Contribution <contributing>`
+* :ref:`Search / Recherche <search>`
