@@ -1,4 +1,10 @@
-
+.. meta::
+   :description lang=en: ROT over Voice Protocol documentation for use in 
+      Canadian Amateur Radio communications.
+   :description lang=fr: Documentation du Protocole ROT sur Voix pour une 
+      utilisation dans les communications radioamateur canadiennes.
+   :keywords: ROT, ROT13, substitution cipher,  
+      voice protocol, amateur radio, Y3IGU, encryption
 
 ROT over Voice Protocol / Protocole ROT sur Voix
 =======================================================================
@@ -7,7 +13,7 @@ ROT over Voice Protocol / Protocole ROT sur Voix
 .. note::
 
    :Protocol ID/ID de Protocole: Y3IGU
-   :Protocol Version/Version du Protocole: v1
+   :Version: v1.0.1
    :Updated At/Mis à Jour le: 2024-11-28
 
 
@@ -88,9 +94,20 @@ To decrypt a message:
 
 Formula:
 
-* Encryption: E(x) = (x + N) mod 26
-* Decryption: D(x) = (x - N) mod 26
-* Where x is the position in alphabet (A=0, B=1, etc.)
+.. math::
+
+   \begin{aligned}
+       &\textbf{Encryption: } E(x) = (x + N) \bmod 26, \\
+       &\textbf{Decryption: } D(x) = (x - N + 26) \bmod 26,
+   \end{aligned}
+
+.. math::
+
+   \begin{aligned}
+       &\text{where } x \in \mathbb{Z}_{26} \text{ represents the position of a letter in } X = \{A, B, \ldots, Z\}, \\
+       &x = 0 \text{ corresponds to } A, \\
+       &N \in \{1, 2, \ldots, 25\} \text{ is the shift value}.
+   \end{aligned}
 
 Selecting N Value
 ^^^^^^^^^^^^^
@@ -208,9 +225,20 @@ Pour déchiffrer un message :
 
 Formule :
 
-* Chiffrement : E(x) = (x + N) mod 26
-* Déchiffrement : D(x) = (x - N) mod 26
-* Où x est la position dans l'alphabet (A=0, B=1, etc.)
+.. math::
+
+   \begin{aligned}
+       &\textbf{Chiffrement : } E(x) = (x + N) \bmod 26, \\
+       &\textbf{Déchiffrement : } D(x) = (x - N + 26) \bmod 26,
+   \end{aligned}
+
+.. math::
+
+   \begin{aligned}
+       &\text{où } x \in \mathbb{Z}_{26} \text{ représente la position d'une lettre dans } X = \{A, B, \ldots, Z\}, \\
+       &x = 0 \text{ correspond à } A, \\
+       &N \in \{1, 2, \ldots, 25\} \text{ est la valeur de décalage}.
+   \end{aligned}
 
 Sélection de la Valeur N
 ^^^^^^^^^^^^^^^^^^^^^^
