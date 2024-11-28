@@ -1,14 +1,20 @@
+
+
 ROT-N over Voice Protocol / Protocole ROT-N sur Voix
 =======================================================================
 
-Protocol ID: Y3IGU
 
-.. _english:
+.. note::
 
-English
+   :Protocol ID/ID de Protocole: Y3IGU
+   :Protocol Version/Version du Protocole: v1
+   :Updated At/Mis à Jour le: 2024-11-28
+
+
+English_
 -------
 
-`Version française <francais_>`_
+Accéder à la `version française <français_>`_
 
 Overview
 ~~~~~~~~
@@ -123,12 +129,12 @@ Security Considerations
 * Consider N value public information, not a secret key
 
 
-.. _francais:
 
-Français
+Français_
 --------
 
-`English version <english_>`_
+Access the `English version <english_>`_
+
 
 Aperçu
 ~~~~~~
