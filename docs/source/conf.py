@@ -10,7 +10,7 @@ release = '0.1.0'
 
 # The master toctree document
 master_doc = 'index'
-root_doc = 'index'  # New versions of Sphinx use root_doc instead of master_doc
+root_doc = 'index' 
 
 # Extensions
 extensions = [
@@ -36,6 +36,13 @@ html_theme_options = {
     'sticky_navigation': True,
     'collapse_navigation': False,
     'includehidden': False,
+}
+
+html_context = {
+    'display_github': True,
+    'github_user': 'amingilani',
+    'github_repo': 'cipher',
+    'github_version': 'master/docs/source/',
 }
 
 # PDF output settings
