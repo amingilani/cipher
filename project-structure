@@ -1,0 +1,22 @@
+cipher-docs/
+├── docs/
+│   ├── Makefile              # Need to create this
+│   └── source/
+│       ├── _static/          # Create directory
+│       ├── _templates/       # Create directory
+│       ├── conf.py           # Already exists
+│       ├── index.rst         # Already exists
+│       ├── en/
+│       │   └── protocols/
+│       │       ├── index.rst    # Already exists
+│       │       └── rot13.rst    # Already exists
+│       └── fr/
+│           └── protocols/
+│               ├── index.rst    # Already exists
+│               └── rot13.rst    # Already exists
+├── .github/
+│   ├── workflows/
+│   │   └── docs.yml         # Already exists
+│   └── CONTRIBUTING.md      # Already exists
+├── pyproject.toml           # Already exists
+└── README.md               # Need to create this 

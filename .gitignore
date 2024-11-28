@@ -1,0 +1,22 @@
+# Build artifacts
+docs/build/
+__pycache__/
+*.pyc
+
+# Poetry
+dist/
+*.egg-info/
+poetry.lock
+
+# Environment
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db 
