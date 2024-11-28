@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ROT13 Voice Channel Specification &mdash; CIPHER 0.1.0 documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Protocoles" href="../../fr/protocols/index.html" />
+    <link rel="prev" title="Protocols" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html">
+            
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">English Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Protocols</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">ROT13 Voice Channel Specification</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#standard-operating-procedure">Standard Operating Procedure</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#initialization">Initialization</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#transmission-format">Transmission Format</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#example-transmission">Example Transmission</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#implementation-details">Implementation Details</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#alphabet-mapping">Alphabet Mapping</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#regulatory-compliance">Regulatory Compliance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#notes">Notes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Documentation Française</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../fr/protocols/index.html">Protocoles</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">CIPHER</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="index.html">Protocols</a></li>
+      <li class="breadcrumb-item active">ROT13 Voice Channel Specification</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/en/protocols/rot13.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="rot13-voice-channel-specification">
+<h1>ROT13 Voice Channel Specification<a class="headerlink" href="#rot13-voice-channel-specification" title="Permalink to this headline"></a></h1>
+<section id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline"></a></h2>
+<p>ROT13 is a simple substitution cipher that replaces each letter with the letter 13 positions after it in the alphabet.
+For amateur radio voice communications, this specification defines a standard operating procedure for its use.</p>
+</section>
+<section id="standard-operating-procedure">
+<h2>Standard Operating Procedure<a class="headerlink" href="#standard-operating-procedure" title="Permalink to this headline"></a></h2>
+<section id="initialization">
+<h3>Initialization<a class="headerlink" href="#initialization" title="Permalink to this headline"></a></h3>
+<ol class="arabic simple">
+<li><p>Announce intention to use ROT13: “INITIATING ROT13 PROCEDURE”</p></li>
+<li><p>Confirm reception: Receiving station must acknowledge with “ROT13 READY”</p></li>
+</ol>
+</section>
+<section id="transmission-format">
+<h3>Transmission Format<a class="headerlink" href="#transmission-format" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Prefix each encoded message with “CIPHER FOLLOWS”</p></li>
+<li><p>Speak each word clearly using ITU phonetic alphabet</p></li>
+<li><p>End encoded transmission with “CIPHER ENDS”</p></li>
+</ul>
+</section>
+<section id="example-transmission">
+<h3>Example Transmission<a class="headerlink" href="#example-transmission" title="Permalink to this headline"></a></h3>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>OPERATOR 1: &quot;INITIATING ROT13 PROCEDURE&quot;
+OPERATOR 2: &quot;ROT13 READY&quot;
+OPERATOR 1: &quot;CIPHER FOLLOWS&quot;
+OPERATOR 1: &quot;HOTEL ECHO LIMA LIMA OSCAR&quot; (Original: &quot;HELLO&quot;)
+OPERATOR 1: &quot;CIPHER ENDS&quot;
+</pre></div>
+</div>
+</section>
+</section>
+<section id="implementation-details">
+<h2>Implementation Details<a class="headerlink" href="#implementation-details" title="Permalink to this headline"></a></h2>
+<section id="alphabet-mapping">
+<h3>Alphabet Mapping<a class="headerlink" href="#alphabet-mapping" title="Permalink to this headline"></a></h3>
+</section>
+</section>
+<section id="regulatory-compliance">
+<h2>Regulatory Compliance<a class="headerlink" href="#regulatory-compliance" title="Permalink to this headline"></a></h2>
+<p>This implementation complies with Canadian Radiocommunication Regulations by:</p>
+<ol class="arabic simple">
+<li><p>Being publicly documented</p></li>
+<li><p>Using a well-known, reversible algorithm</p></li>
+<li><p>Maintaining transparency in communications</p></li>
+</ol>
+</section>
+<section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline"></a></h2>
+<ul class="simple">
+<li><p>ROT13 is not secure encryption and should only be used for training or recreational purposes</p></li>
+<li><p>All transmissions must comply with Canadian amateur radio regulations</p></li>
+<li><p>Keep a copy of this specification available during operation</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Protocols" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../fr/protocols/index.html" class="btn btn-neutral float-right" title="Protocoles" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, CIPHER Contributors.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
