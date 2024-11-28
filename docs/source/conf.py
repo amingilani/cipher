@@ -31,13 +31,11 @@ gettext_compact = False
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_theme_options = {
-    'display_version': True,
     'navigation_depth': 4,
     'titles_only': True,
     'sticky_navigation': True,
     'collapse_navigation': False,
     'includehidden': False,
-    'home_page_in_toc': True
 }
 
 # PDF output settings
@@ -53,4 +51,5 @@ latex_documents = [
 ]
 
 # Source suffix
-source_suffix = '.rst'
+source_suffix = {'.rst': 'restructuredtext'}
+templates_path = ['_templates']
