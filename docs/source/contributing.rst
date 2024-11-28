@@ -1,11 +1,13 @@
 Contributing Guidelines / Directives de Contribution
 ================================================
 
-Protocol ID: Y3IGU
+.. _english:
 
 English 
 -------
-:ref:`Version française <francais>`
+
+`Version française <francais_>`_
+
 
 How to Contribute
 ---------------
@@ -85,7 +87,8 @@ Open an issue in the repository or contact the maintainers.
 
 Français
 --------
-:ref:`English version <English>`
+
+`English version <english_>`_
 
 Comment Contribuer
 ----------------

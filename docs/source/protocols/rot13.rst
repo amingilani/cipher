@@ -1,11 +1,14 @@
-ROT-N Voice Channel Specification / Spécification ROT-N pour Canaux Vocaux
+ROT-N over Voice Protocol / Protocole ROT-N sur Voix
 =======================================================================
 
 Protocol ID: Y3IGU
 
+.. _english:
+
 English
 -------
-:ref:`Version française <francais>`
+
+`Version française <francais_>`_
 
 Overview
 ~~~~~~~~
@@ -124,7 +127,8 @@ Security Considerations
 
 Français
 --------
-:ref:`English version <English>`
+
+`English version <english_>`_
 
 Aperçu
 ~~~~~~
