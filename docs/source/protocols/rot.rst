@@ -1,6 +1,6 @@
 
 
-ROT-N over Voice Protocol / Protocole ROT-N sur Voix
+ROT over Voice Protocol / Protocole ROT sur Voix
 =======================================================================
 
 
@@ -18,7 +18,7 @@ Accéder à la `version française <français_>`_
 
 Overview
 ~~~~~~~~
-ROT is a simple substitution cipher that replaces each letter with another letter N positions after it in the alphabet (`ROT13 Details <https://en.wikipedia.org/wiki/ROT13>`_). While ROT13 is traditional (N=13), this specification supports any agreed-upon value of N. For testing or implementation, operators may use `CyberChef's ROT13 tool <https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)>`_.
+ROT is a simple substitution cipher that replaces each letter with another letter N positions after it in the alphabet. While `ROT13 <https://en.wikipedia.org/wiki/ROT13>`_ is traditional (N=13), this specification supports any agreed-upon value of N. For testing or implementation, operators may use `CyberChef's ROT13 tool <https://gchq.github.io/CyberChef/#recipe=ROT13(true,true,false,13)>`_.
 
 For amateur radio voice communications, this specification defines a standard operating procedure for its use. Operators may deviate from the specific procedures described here, provided they:
 
