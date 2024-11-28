@@ -12,13 +12,13 @@ Bienvenue au CIPHER (Index Canadien des Ressources de Chiffrement pour Radioamat
 
 .. toctree::
    :maxdepth: 1
+   :caption: Navigation
+   
+   contributing
+
+.. toctree::
+   :maxdepth: 1
    :caption: Protocols / Protocoles
    :glob:
    
    protocols/*
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Navigation
-   
-   contributing

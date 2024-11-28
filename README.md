@@ -4,4 +4,4 @@ Canadian Index of Practical Ham Encryption Resources (CIPHER) - Documentation Su
 
 ## Local Development
 
-1. Install Poetry: 
+1. Install Poetry:
