@@ -7,15 +7,9 @@ cipher-docs/
 │       ├── _templates/
 │       ├── conf.py
 │       ├── index.rst
-│       ├── protocols/
-│       │   ├── index.rst
-│       │   └── rot13.rst
-│       ├── regulatory/
-│       │   └── index.rst
-│       ├── implementation/
-│       │   └── index.rst
-│       └── examples/
-│           └── index.rst
+│       └── protocols/
+│           ├── index.rst
+│           └── rot13.rst
 ├── .github/
 │   ├── workflows/
 │   │   └── docs.yml
